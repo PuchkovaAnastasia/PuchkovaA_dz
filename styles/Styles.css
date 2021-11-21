@@ -1,0 +1,69 @@
+.header {
+    padding: 15px 30px;
+    width: 100%;
+    display: flex;
+}
+button {
+    background: mediumblue;
+    color: black;
+    font: 25px Verdana;
+    border: 5px black;
+    border-collapse: collapse;
+    vertical-align: top;
+    margin-left: 350px;
+}
+.Page {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.photo:nth-of-type(1) {
+    flex: 1 1000px;
+}
+.two:nth-of-type(2) {
+    flex: 1500px;
+}
+
+.photo {
+    padding: 30px;
+    background: lightgray;
+}
+h1 {
+    font: 48px "Franklin Gothic Book";
+    color: blue;
+    background: lightgray;
+    text-align: top;
+}
+.two, .three {
+    font: 20px Verdana;
+    background: lightgray;
+    padding: 50px;
+    white-space: pre-line;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+.flex1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font: 20px Verdana;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin-top: 25px;
+    font: 20px Verdana;
+    padding: 15px;
+    text-align: center;
+}
