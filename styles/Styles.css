@@ -16,47 +16,49 @@ button {
     width: 100%;
     height: 100%;
     padding: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    grid-column: 1fr 1fr 1 fr;
+    grid-row: 50px 100px 100px;
 }
-.photo:nth-of-type(1) {
-    flex: 1 1000px;
-}
-.two:nth-of-type(2) {
-    flex: 1500px;
-}
-
 .photo {
     padding: 30px;
     background: lightgray;
+    grid-column: 1/3;
+    grid-row: 1/3;
 }
-h1 {
+.one {
     font: 48px "Franklin Gothic Book";
     color: blue;
     background: lightgray;
-    text-align: top;
+    text-align: center;
+    grid-column: 3/5;
+    grid-row: 1;
 }
 .two, .three {
-    font: 20px Verdana;
+    font: 30px Verdana;
     background: lightgray;
-    padding: 50px;
+    padding: 20px;
     white-space: pre-line;
 }
+.two {
+    grid-column: 3;
+    grid-row: 2/3;
+}
+.three {
+    grid-column: 4;
+    grid-row: 2/3;
+}
 .flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    padding: 15px;
-}
-.flex1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin-top: 25px;
     font: 20px Verdana;
+    padding: 15px;
+    text-align: center;
 }
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -67,3 +69,71 @@ h1 {
     padding: 15px;
     text-align: center;
 }
+footer {
+    font: 20px Verdana;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background: lightgray;
+}
+.Instagram, .Twiter, .VK {
+    color: blue;
+    padding: 10px;
+}
+@media screen and (max-width: 400px){
+    .grid {
+        grid-template-columns: 1fr;
+        width: auto;
+    }
+    .flex {
+        width: auto;
+        grid-template-columns: 1fr;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .header {
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+    }
+    .Page {
+        grid-template-columns: 1fr;
+        width: auto;
+    }
+}
+@media screen and (max-width: 800px ) and (min-width: 401px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+
+    .flex {
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+    .Page {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: auto;
+}
+@media screen and (min-width: 801px) {
+    .grid {
+        width: auto;
+    }
+    .flex {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: auto;
+    }
+    .Page{
+        width: auto;
+    }
+    .photo {
+       width: auto;
+    }
+}
+
+
