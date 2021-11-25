@@ -1,0 +1,55 @@
+caption {
+    font: 30px Verdana;
+    padding: 10px;
+}
+table, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td {
+    width: 150px;
+    height: 80px;
+}
+.one {
+    font: 40px Verdana;
+    float: left;
+    width: 10%;
+}
+.two {
+    font: 30px Verdana;
+    float: right;
+    width: 24%;
+}
+.three {
+    font: 20px "Times New Roman";
+    float: right;
+    width: 20%;
+    padding-top: 12px;
+}
+.four {
+    font: 24px Verdana;
+    float: left;
+    width: 60%;
+}
+.one_1 {
+    font: 40px Verdana;
+    float: right;
+    width: 34%;
+}
+.two_1 {
+    font: 30px Verdana;
+    float: left;
+    width: 10%;
+}
+.three_1 {
+    font: 20px "Times New Roman";
+    float: left;
+    width: 40%;
+    padding-top: 7px;
+}
+.four_1 {
+    font: 24px Verdana;
+    float: right;
+    width: 70%;
+    padding-top: 12px;
+}
