@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <?
-    include "header.php";
+    require_once 'header.php'
     ?>
 </head>
 <body>
@@ -16,7 +16,7 @@
 <?
 
 //1.Задача
-/*$n=25;
+$n=25;
 $arr = [];
 for($i=0; $i<$n;$i++) {
     $arr[] = mt_rand(0, 100);
@@ -41,7 +41,7 @@ foreach ($a as $key => $fruit) {
             echo $color . "<br/>";
         }
     }
-}*/
+}
 
 //3. Задача
 $a = array(
@@ -49,15 +49,15 @@ $a = array(
     50 => array(2, 4, 100),
     75 => array(3, 18, 23),
 );
-echo count($a).'</br>';
+echo count($a, COUNT_RECURSIVE).'</br>';
 echo count($a[25]). '</br>';
 echo count($a[50]). '</br>';
 echo count($a[75]). '</br>';
 ?>
+</body>
 <footer>
     <?
-    include "footer.php";
+    require_once 'footer.php'
     ?>
 </footer>
-</body>
 </html>
