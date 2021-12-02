@@ -54,12 +54,11 @@ button {
     grid-row: 2/4;
 }
 .task {
-    font: 15px Verdana;
-    color: darkslategrey;
-    vertical-align: center;
+    font: 25px Verdana;
+    color: mediumblue;
+    vertical-align: middle;
     justify-content: left;
-    text-align: center;
-
+    text-align: left;
 }
 .flex {
     display: grid;
@@ -90,6 +89,7 @@ button {
     background: gray;
     vertical-align: middle;
 }
+
 @media screen and (max-width: 400px){
     .grid {
         width: auto;
