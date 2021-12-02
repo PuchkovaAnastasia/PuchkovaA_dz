@@ -40,10 +40,14 @@ echo timefon();
         $info= "Я работаю инженером по охране окружающей среды (экологом) в Энергокомпании, также по совместительству в мои обязанности входят задачи инженера технического отдела.
                 <p>По образованию я инженер по электроснабжению и переводчик английского языка.</p>
         <p> Мое хобби - это театральная студия Май, в которую я хожу уже 2 года.</p>";
-        $infoArray = explode('.', $info);
-        $infoArray[0] = "<span style = 'color: red'> $infoArray[0]</span>";
-        $my_info = implode('.', $infoArray);
-        echo $my_info;
+        function colorInfo($str)
+        {
+            $infoArray = explode('.', $str);
+            $infoArray[0] = "<span style = 'color: red'> $infoArray[0]</span>";
+            $my_info = implode('.', $infoArray);
+            echo $my_info;
+        }
+        echo colorInfo($info);
         ?>
         </div>
     <div class="three">
