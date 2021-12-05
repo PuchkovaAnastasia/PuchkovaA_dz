@@ -1,8 +1,8 @@
-.header {
-    padding: 15px 30px;
+header {
+    padding: 15px 5px;
     width: auto;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 20% 16% 16% 16% 16% 16%;
     grid-template-rows: 1fr;
     background: lightgray;
 }
@@ -26,14 +26,14 @@ button {
 }
 .photo {
     padding: 10px;
-    background: white;
+    background: lightgray;
     grid-column: 1;
     grid-row: 1/4;
 }
 .one {
     font: 40px "Franklin Gothic Book";
     color: blue;
-    background: white;
+    background: lightgray;
     text-align: center;
     grid-column: 2/4;
     grid-row: 1;
@@ -41,7 +41,7 @@ button {
 }
 .two, .three {
     font: 16px Verdana;
-    background: white;
+    background: lightgray;
     padding: 5px;
     white-space: pre-line;
 }

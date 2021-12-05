@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4e186cb-92ce-4840-8094-af5d34865640" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/Styles2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/TableMendeleev.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/images/Logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/images/Photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/images/forest.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/images/gerbera.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/images/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/images/lake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/images/mountains.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/images/pion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/images/roses.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/images/tree.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/images/tulips.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/images/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/images/vk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/massive.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/site.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.12.2021/Опрос.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/Classwork1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/Styles2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/TableMendeleev.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/images/Logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/images/Photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/images/forest.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/images/gerbera.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/images/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/images/lake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/images/mountains.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/images/pion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/images/roses.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/images/tree.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/images/tulips.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/images/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/images/vk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/massive.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/site.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.11.2021/table.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="21shBkKFeSWWNDdaJw9bDNTgCai" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4e186cb-92ce-4840-8094-af5d34865640" name="Changes" comment="" />
+      <created>1638735570618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638735570618</updated>
+      <workItem from="1638735573275" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

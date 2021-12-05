@@ -25,6 +25,6 @@
     <a href="https://www.vk.com">VK</a>
     <a href="https://www.twitter.com"> Twitter</a>
 </footer>
-</html>
+
 
 

@@ -6,7 +6,7 @@ function timefon() {
     $today = date("H:m");
     if ($today >= "08:00" && $today <= "20:00") {
         //echo '<body style = "background: white">';
-        echo "<link rel='stylesheet' href='styles.css'>";
+        echo "<link rel='stylesheet' type='text/css' href='styles.css'>";
     } else {
         echo '<body style = "background: dimgray">';
         //echo "<link rel='stylesheet' href='Styles2.css'>";
@@ -20,11 +20,11 @@ echo timefon();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
-    <?
-    require_once "header.php";
-    ?>
 </head>
 <body>
+<?
+require "header.php";
+?>
 <main class="Page">
     <div class="photo">
         <img src="images/Photo.jpg" alt="Упс...ошибка" title="Я" height="100%" width="90%">
