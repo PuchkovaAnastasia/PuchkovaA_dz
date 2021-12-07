@@ -1,7 +1,3 @@
-<?php
-$name = md5 ('Anastasia');
-$password=md5('12345');
-?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -13,21 +9,7 @@ $password=md5('12345');
     <title>Document</title>
 </head>
 <body>
-<?
-if (isset($_POST['submit'])):
-    $login = $_POST['login'];
-$user_login = md5($_POST['login']);
-$user_password = md5($_POST['password']);
-
-if ($name == $user_login && $password == $user_password) {
-    echo '<p style = "color:navy">Добро пожаловать на страницу, </p>',
-    $login, '!';
-}
-else
-    echo '<p style="color: navy">Неверная пара логин-пароль: авторизация невозможна!</p>';
-else:
-?>
-<form method="post" action="<?$_SERVER['PHP_SELF']?>">
+<form method="post" action="page.php">
    <label for="login">Введите логин:</label>
    <p>
         <input type="text" name="login" id = login size="25">
@@ -40,6 +22,5 @@ else:
         <input type="submit" name="submit" value="Отправить">
     </p>
 </form>
-<?endif;?>
 </body>
 </html>

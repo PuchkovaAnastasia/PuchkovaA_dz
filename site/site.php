@@ -78,6 +78,15 @@ require "header.php";
     <div class="four_four"> <img src="images/gerbera.jpg" alt="Ошибка"><p><? $h = 'Гербера'; echo $h ?> </p>
     </div>
 </section>
+<form action="" method="post">
+<select>
+    <label for="login">Выберите цвет сайта</label>
+    <option value="background: red">Красный></option>
+    <option value="background: yellow">Желтый</option>
+    <option value="background: green">Зеленый</option>
+    <option value="background: blue">Синий</option>
+</select>
+</form>
 <div class="task">
 <p>Количество гласных букв на моей основной странице:</p>
 <?
