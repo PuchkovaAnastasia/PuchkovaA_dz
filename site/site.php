@@ -13,6 +13,25 @@ function timefon() {
     }
 }
 echo timefon();
+setcookie('color', $_COOKIE['color'], time()+3600*24*7);
+if (isset($_POST['color'])) {
+    if ($_POST['color'] == 1) {
+        $b = 'red';
+        $_COOKIE ['color'] = $b;
+    }
+    elseif
+    ($_POST['color'] == 2) {
+        $b = 'yellow';
+        $_COOKIE ['color'] = $b;
+    }elseif
+    ($_POST['color'] == 3) {
+        $b = 'green';
+        $_COOKIE ['color'] = $b;
+    }
+    else
+        $b = 'blue';
+    $_COOKIE ['color'] = $b;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -24,6 +43,9 @@ echo timefon();
 <body>
 <?
 require "header.php";
+?>
+<?
+echo $b;
 ?>
 <main class="Page">
     <div class="photo">
@@ -79,12 +101,13 @@ require "header.php";
     </div>
 </section>
 <form action="" method="post">
-<select>
-    <label for="login">Выберите цвет сайта</label>
-    <option value="background: red">Красный></option>
-    <option value="background: yellow">Желтый</option>
-    <option value="background: green">Зеленый</option>
-    <option value="background: blue">Синий</option>
+    <p style="color: darkred">Выбери цвет фона</p>
+<select class="color">
+    <option name="color" style="background: red" value=1 >Красный</option>
+    <option name="color" style="background: yellow" value=2 >Желтый</option>
+    <option name="color" style="background: green" value=3 >Зеленый</option>
+    <option name="color" style="background: blue" value=4>Синий</option>
+    <input type="submit" name="submit">
 </select>
 </form>
 <div class="task">

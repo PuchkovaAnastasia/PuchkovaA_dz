@@ -80,6 +80,25 @@ button {
     padding: 15px;
     text-align: center;
 }
+
+.color{
+    font: 25px Verdana;
+    border: 5px black;
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+input {
+    background: blue;
+    color: black;
+    font: 25px Verdana;
+    border: 25px black;
+    border-collapse: collapse;
+    vertical-align: middle;
+    margin-left: 5px;
+   }
+form{
+    font: 25px Verdana;
+}
 .footer {
     font: 20px Verdana;
     padding: 15px;

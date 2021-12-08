@@ -1,8 +1,7 @@
 <?php
 $name = md5 ('Anastasia');
 $password=md5('12345');
-setcookie('site', 'bitrix', time()+3600*24*7);
-setcookie('site2', 'fact', time()+3600*24*7);
+setcookie('site', $_COOKIE['site'], time()+3600*24*7);
 if (isset($_POST['submit'])):
     $login = $_POST['login'];
     $user_login = md5($_POST['login']);
@@ -33,16 +32,10 @@ endif;
 <body>
 <?
 if (isset($_COOKIE['site'])){
-    $_COOKIE['site'] = 'bitrix';
-echo '<p style = "color:navy">В последний раз вы были на сайте Bitrix</p>';
+    echo '<p style = "color:navy">В последний раз вы были на сайте</p>', $_COOKIE['site'];
 }
-elseif (isset($_COOKIE['site2'])) {
-    $_COOKIE['site2'] = 'fact';
-    echo '<p style="color: navy">В последний раз вы были на сайте Факт</p>';
-}
-else echo '<p style="color: navy">Посетите сайты</p>';
 ?>
 <p><a href="https://www.1c-bitrix.ru">Bitrix</a></p>
-<a href="https://fact.digital/">Факт</a>
+<a href="https://fact.digital/" >Факт</a>
 </body>
 </html>
