@@ -6,31 +6,16 @@ function timefon() {
     $today = date("H:m");
     if ($today >= "08:00" && $today <= "20:00") {
         //echo '<body style = "background: white">';
-        echo "<link rel='stylesheet' type='text/css' href='styles.css'>";
+        echo "<link rel='stylesheet' type='text/css' href='styles/styles.css'>";
     } else {
         echo '<body style = "background: dimgray">';
-        //echo "<link rel='stylesheet' href='Styles2.css'>";
+        //echo "<link rel='stylesheet' href='styles/Styles2.css'>";
     }
 }
 echo timefon();
-setcookie('color', $_COOKIE['color'], time()+3600*24*7);
-if (isset($_POST['color'])) {
-    if ($_POST['color'] == 1) {
-        $b = 'red';
-        $_COOKIE ['color'] = $b;
-    }
-    elseif
-    ($_POST['color'] == 2) {
-        $b = 'yellow';
-        $_COOKIE ['color'] = $b;
-    }elseif
-    ($_POST['color'] == 3) {
-        $b = 'green';
-        $_COOKIE ['color'] = $b;
-    }
-    else
-        $b = 'blue';
-    $_COOKIE ['color'] = $b;
+if (isset($_POST['color_button']) && ($_POST['background-color'])) {
+    $color = $_POST['background-color'];
+    setcookie("background-color", $color, time() + 3600 * 24 * 30);
 }
 ?>
 <!DOCTYPE html>
@@ -39,15 +24,14 @@ if (isset($_POST['color'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
+
 </head>
 <body>
 <?
 require "header.php";
 ?>
-<?
-echo $b;
-?>
-<main class="Page">
+
+<main class="Page" style="background-color: <?=$_COOKIE['background-color']?>">
     <div class="photo">
         <img src="images/Photo.jpg" alt="Упс...ошибка" title="Я" height="100%" width="90%">
     </div>
@@ -87,29 +71,30 @@ echo $b;
         ?>
     </div>
 </main>
-<section class="flex">
+<section class="flex" style="background-color:<?=$_COOKIE['background-color']?>"">
     <div class="one_new"> <img src="images/forest.jpg" alt="Не загружено"><p> <?$a = 'Лес'; echo $a ?>  </p></div>
     <div class="two_new"> <img src="images/mountains.jpg" alt="Не загружено"><p><? $b = 'Горы'; echo $b ?> </p></div>
     <div class="three_new"><img src="images/tree.jpg" alt="Не загружено" height="210"><p><? $c = 'Луг'; echo $c ?> </p></div>
     <div class="four_new"> <img src="images/lake.jpg" alt="Не загружено" height="210"><p><? $d = 'Озеро'; echo $d ?> </p></div>
 </section>
-<section class="grid">
+<section class="grid" style="background-color: <?=$_COOKIE['background-color']?>">
     <div class="one_one"> <img src="images/roses.jpg" alt="Ошибка" title="Розы"><p><? $e = 'Розы'; echo $e ?></p></div>
     <div class="two_two"> <img src="images/tulips.jpg" alt="Не загружено" ><p><? $f='Тюльпаны'; echo $f ?> </p></div>
     <div class="three_three"><img src="images/pion.jpg" alt="Не загружено" ><p><? $g ='Пион'; echo $g ?> </p></div>
     <div class="four_four"> <img src="images/gerbera.jpg" alt="Ошибка"><p><? $h = 'Гербера'; echo $h ?> </p>
     </div>
 </section>
-<form action="" method="post">
+<form id = "background-color"  method="post">
     <p style="color: darkred">Выбери цвет фона</p>
-<select class="color">
-    <option name="color" style="background: red" value=1 >Красный</option>
-    <option name="color" style="background: yellow" value=2 >Желтый</option>
-    <option name="color" style="background: green" value=3 >Зеленый</option>
-    <option name="color" style="background: blue" value=4>Синий</option>
-    <input type="submit" name="submit">
-</select>
-</form>
+    <input type="color" list="preset_colors" id ="background-color" value="<?=$_COOKIE['background-color']?>" name="background-color">
+<datalist id = "preset_colors">
+    <option value="#E21217" >Красный</option>
+    <option value="#E2A117" >Желтый</option>
+    <option value="#008000" >Зеленый</option>
+    <option value="#0000FF">Синий</option>
+</datalist>
+    <button type="submit" name="color_button" id="color_button">Выбери цвет</button>
+    </form>
 <div class="task">
 <p>Количество гласных букв на моей основной странице:</p>
 <?

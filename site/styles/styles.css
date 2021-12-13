@@ -13,8 +13,8 @@ button {
     border: 5px black;
     border-collapse: collapse;
     vertical-align: middle;
-    margin-left: 50px;
-    margin-top: 30px;
+    margin-left: 10px;
+    margin-top: 0px;
 }
 .Page {
     width: 100%;
@@ -85,17 +85,14 @@ button {
     font: 25px Verdana;
     border: 5px black;
     border-collapse: collapse;
-    vertical-align: middle;
-}
+    }
 input {
     background: blue;
     color: black;
     font: 25px Verdana;
     border: 25px black;
     border-collapse: collapse;
-    vertical-align: middle;
-    margin-left: 5px;
-   }
+    }
 form{
     font: 25px Verdana;
 }
