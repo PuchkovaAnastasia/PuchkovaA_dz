@@ -1,0 +1,20 @@
+body{
+    background: darkslategrey;
+    text-align: center;
+    margin-top: 100px;
+    font: 30px Verdana;
+    color: navy;
+}
+input {
+    display: inline-block;
+    margin: 10px auto;
+    border: 3px solid black;
+    padding: 10px 20px;
+    font: 25px Verdana, bold;
+    color: mediumblue;
+}
+label {
+    font-family: Verdana, sans-serif;
+    font-size: 35px;
+    color: navy;
+}
